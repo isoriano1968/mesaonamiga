@@ -67,6 +67,7 @@ Failure #1: libatomic cannot be found (well wasn't build as part gcc though in t
 Fixed: https://github.com/bebbo/gcc/issues/203
 
 Failure #2: libdl was missing
+
 Fixed: https://github.com/BSzili/libdl-hunk
 
 ... to be continued
