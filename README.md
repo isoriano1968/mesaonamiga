@@ -10,6 +10,13 @@ My development environment: Debian 12, aarch64 (so yes, no need for a Solaris or
 
 First thing I did,  compiling native mesa-23.1.1 on Linux (gcc 12.2.0-14) to make sure you have the whole shibang of libs, etc required by Mesa to build "natively" with all the bits and pieces on Linux (do not forget libelf and elf-tools depending on your distro).
 
+git clone https://gitlab.freedesktop.org/mesa/mesa/-/tree/23.1
+
+https://gitlab.freedesktop.org/mesa/mesa/-/tree/23.1
+
+
+
+
 Once that worked I went to build amiga-gcc, 13.1.1 (ATTENTION THIS IS ABSOLUTELY WOKR IN PROGRESS)
 
 Create destination directory:
@@ -26,7 +33,7 @@ sudo chrgp users /opt/amiga
 Let's build amiga-gcc:
 
 
-mkdir amiga-gcc
+git clone https://github.com/bebbo/amiga-gcc
 
 cd amiga-gcc
 
