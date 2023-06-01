@@ -72,4 +72,4 @@ Failure #1: libatomic cannot be found (well wasn't build as part gcc though in t
 
 # What would probably make sense?
 
-Instead of having a "local" dev env using a layered (images) approach it would make more sense to wto have images with core os, amiga-gcc, mesa that we can use as a container to serve as consistent dev environment. 
+Instead of having a "local" dev env using a layered (images) approach it would make more sense to have images with core os, amiga-gcc, mesa that we can use as a container to serve as consistent dev environment. 
