@@ -64,7 +64,9 @@ meson setup --cross-file m68k.ini --cross-file cross.ini --default-library=stati
 
 Failure #1: libatomic cannot be found (well wasn't build as part gcc though in the sources)
 
-https://ibb.co/Fh2pTMr https://ibb.co/4gdNnP4
+<img width="1680" alt="Bildschirmfoto 2023-06-01 um 10 30 38" src="https://github.com/isoriano1968/mesaonamiga/assets/81116077/8c97591f-d411-4583-8a5f-212c945be9d8">
+<img width="1680" alt="Bildschirmfoto 2023-06-01 um 10 30 44" src="https://github.com/isoriano1968/mesaonamiga/assets/81116077/b38fbfce-3c6e-4d95-9432-bad1bda0c348">
+
 
 ... to be continued
 
