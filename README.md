@@ -15,8 +15,11 @@ Once that worked I went to build amiga-gcc, 13.1.1 (ATTENTION THIS IS ABSOLUTELY
 Create destination directory:
 
 sudo mkdir -p /opt/amiga
+
 sudo chmod 775 /opt/amiga
+
 sudo usermod -a -G users username
+
 sudo chrgp users /opt/amiga
 
 
@@ -24,13 +27,21 @@ Let's build amiga-gcc:
 
 
 mkdir amiga-gcc
+
 cd amiga-gcc
+
 make update-gcc
+
 pushd projects/gcc
+
 git fetch origin amiga13.1:amiga13.1 --depth=10
+
 git checkout amiga13.1
+
 popd
+
 make clean
+
 make all NDK=3.2
 
 At least for me I was getting an error in libgcc so I patched it .. I just added #include <sys/types.h> to amiga-gcc/projects/gcc/libgcc/libgcov.h which fixed it.
