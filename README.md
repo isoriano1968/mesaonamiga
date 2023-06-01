@@ -64,6 +64,8 @@ meson setup --cross-file m68k.ini --cross-file cross.ini --default-library=stati
 
 Failure #1: libatomic cannot be found (well wasn't build as part gcc though in the sources)
 
+https://ibb.co/Fh2pTMr https://ibb.co/4gdNnP4
+
 ... to be continued
 
 # What would probably make sense?
