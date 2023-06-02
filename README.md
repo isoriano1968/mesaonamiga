@@ -51,7 +51,6 @@ make clean
 
 make all NDK=3.2
 
-At least for me I was getting an error in libgcc so I patched it .. I just added #include <sys/types.h> to amiga-gcc/projects/gcc/libgcc/libgcov.h which fixed it.
 Installation as kind of a fav in /opt/amiga
 
 # Mesa3D cross-compilation build
