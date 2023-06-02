@@ -69,6 +69,8 @@ Failure #2: libdl was missing
 
 Fixed: https://github.com/BSzili/libdl-hunk
 
+Failure #3: librt was missing
+
 ... to be continued
 
 # What would probably make sense?
