@@ -71,6 +71,12 @@ Fixed: https://github.com/BSzili/libdl-hunk
 
 Failure #3: librt was missing
 
+Failure #4: zlib was missing
+
+Failure #5: zstd was missing
+
+Failure #6: libexpat was missing
+
 ... to be continued
 
 # What would probably make sense?
