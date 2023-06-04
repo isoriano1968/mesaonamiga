@@ -69,13 +69,9 @@ Failure #2: libdl was missing
 
 Fixed: https://github.com/BSzili/libdl-hunk
 
-Failure #3: librt was missing
+Failure #3: librt was missing, may be part of libc but also as a stub in librt ... looking for clock_gettime etc
 
-Failure #4: zlib was missing
-
-Failure #5: zstd was missing
-
-Failure #6: libexpat was missing
+Failure #4: libdrm missng, NOW THIS IS where the beef is .. dependencies on X11 libs .. welcome to hell!
 
 ... to be continued
 
