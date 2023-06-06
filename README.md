@@ -100,7 +100,7 @@ So with this in mind, one should have enough information to know where to start 
  - If we are interested in the platform specific support, be it EGL or GLX, we want to look into src/egl or src/glx.
  - If we are interested in the GLSL implementation, which involves anything from the compiler to the intermediary IR and the various optimization passes, we need to look into src/glsl/.
 
-# How could we approach MOA? Keep Mesa3D as-is as we do not want a one off but hopefully encapsulate and abstarct the OS dependant parts in a separate layer
+# How could we approach MOA? Keep Mesa3D as-is as we do not want a one off but hopefully encapsulate and abstract the OS dependant parts in a separate layer
 
 <img width="2560" alt="MOA_archv1" src="https://github.com/isoriano1968/mesaonamiga/assets/81116077/d8f12116-3020-4ba2-abac-5e7e2199fa32">
 
